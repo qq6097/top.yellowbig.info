@@ -1,0 +1,14 @@
+Bundle-Version: 1.0.0
+Private-Package:  \
+	top.yellowbig.info
+-buildpath:  \
+	javax.servlet,\
+	javax.ws.rs.jsr311-api,\
+	org.apache.felix.dependencymanager;version=4.1,\
+	osgi.core,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	org.apache.felix.eventadmin,\
+	org.eclipse.jetty.servlets
+Bundle-Activator: top.yellowbig.info.Activator
